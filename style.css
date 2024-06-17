@@ -41,16 +41,6 @@ a:hover {
     text-decoration: underline;
 }
 
-section {
-    font-family: var(--font2);   
-    font-size: 30px;
-    padding: 60px 0px 60px 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 section:nth-of-type(2) {
     background-image: url(./imagens/background001.jpg); 
     height: 500px;
@@ -60,15 +50,27 @@ section:nth-of-type(4) {
     height: 500px;
 }
 
-section p {
-    
+section {
+    padding: 1px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-p.imagem {
+section p{
+    display: block;
+    font-family: var(--font2);   
+    font-size: 30px;
+    padding: 5px;
+    margin: 80px 0px 80px 30px; 
+    max-width: 360px; 
+}
+
+p.imagem { 
     color: white;
     background-color: rgba(0, 0, 0, 0.61);
-    display: block;
-    max-width: 400px;
+    
 }
 
 footer {
