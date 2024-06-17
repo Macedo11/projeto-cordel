@@ -10,14 +10,13 @@
 
 :root {
     --font1: 'Passion One';
-    --font2: 'Sriracha'
+    --font2: 'Sriracha';
 }
 
 header {
     background-color: black;
     text-align: center;
     color: white;
-    height: 215px;
 }
 
 header h1 { 
@@ -29,6 +28,7 @@ header h1 {
 
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 a {
@@ -41,8 +41,30 @@ a:hover {
     text-decoration: underline;
 }
 
-section.normal {
+section {
     font-family: var(--font2);
-    padding: 60px 0px 0px 20px;
+    padding: 60px 0px 60px 30px;
     font-size: 30px;
+}
+
+section:nth-of-type(2) {
+    background-image: url(./imagens/background001.jpg);
+    background-size: cover;
+}
+section:nth-of-type(4) {
+    background-image: url(./imagens/background002.jpg);
+    background-size: cover;
+}
+
+p.imagem {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+footer {
+    background-color: black ;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
