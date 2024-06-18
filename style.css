@@ -9,13 +9,15 @@
 }
 
 :root {
-    --font1: 'Passion One';
-    --font2: 'Sriracha';
+    --fonte1: Verdana;
+    --fonte2: 'Passion One';
+    --fonte3: 'Sriracha';
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -25,9 +27,9 @@ header {
 }
 
 header h1 { 
-    font-family: var(--font1);
+    font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 86px;
+    font-size: 10vw;
     padding-top: 50px;
 }
 
@@ -47,10 +49,12 @@ a:hover {
 }
 
 section {
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-size: 3.5vw;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,9 +74,7 @@ section.imagem {
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.685);
     max-width: 400px; 
-    display: block;
-    font-family: var(--font2);   
-    font-size: 30px;
+    display: inline-block;
     padding: 5px;
     margin: 80px 0px 80px 30px; 
 }
