@@ -34,7 +34,7 @@ header h1 {
 }
 
 header p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte1);
     padding-bottom: 50px;
 }
 
